@@ -110,30 +110,37 @@ F 3 "" H 6850 6850 50  0001 C CNN
 	1    0    0    -1
 $EndComp
 NoConn ~ 7500 6950
+
 Text GLabel 900 1400 0    50   Input ~ 0
 row0
 Wire Wire Line
 	900 1400 1150 1400
+
 Text GLabel 1800 650 0    50   Input ~ 0
 col0
 Wire Wire Line
 	1800 650 1800 1000
+
 Text GLabel 2800 650 0    50   Input ~ 0
 col1
 Wire Wire Line
 	2800 650 2800 1000
+
 Text GLabel 3800 650 0    50   Input ~ 0
 col2
 Wire Wire Line
 	3800 650 3800 1000
+
 Text GLabel 4800 650 0    50   Input ~ 0
 col3
 Wire Wire Line
 	4800 650 4800 1000
+
 Text GLabel 5800 650 0    50   Input ~ 0
 col4
 Wire Wire Line
 	5800 650 5800 1000
+
 $Comp
 L keyboard_parts:KEYSW K_SPACE
 U 1 1 01
@@ -162,20 +169,25 @@ Wire Wire Line
 	5150 1000 5150 1100
 Connection ~ 5800 1000
 Connection ~ 5150 1400
+
 Text GLabel 6800 650 0    50   Input ~ 0
 col5
 Wire Wire Line
 	6800 650 6800 1000
+
 Text GLabel 7800 650 0    50   Input ~ 0
 col6
 Wire Wire Line
 	7800 650 7800 1000
+
 Wire Wire Line
 	1150 1400 5150 1400
+
 Text GLabel 900 2400 0    50   Input ~ 0
 row1
 Wire Wire Line
 	900 2400 1150 2400
+
 $Comp
 L keyboard_parts:KEYSW K_SPACE1
 U 1 1 11
@@ -204,6 +216,7 @@ Wire Wire Line
 	2150 2000 2150 2100
 Connection ~ 2800 2000
 Connection ~ 2150 2400
+
 $Comp
 L keyboard_parts:KEYSW K_SPACE2
 U 1 1 21
@@ -232,6 +245,7 @@ Wire Wire Line
 	3150 2000 3150 2100
 Connection ~ 3800 2000
 Connection ~ 3150 2400
+
 $Comp
 L keyboard_parts:KEYSW K_SPACE3
 U 1 1 31
@@ -260,12 +274,15 @@ Wire Wire Line
 	4150 2000 4150 2100
 Connection ~ 4800 2000
 Connection ~ 4150 2400
+
 Wire Wire Line
 	1150 2400 4150 2400
+
 Text GLabel 900 3400 0    50   Input ~ 0
 row2
 Wire Wire Line
 	900 3400 1150 3400
+
 $Comp
 L keyboard_parts:KEYSW K_SPACE4
 U 1 1 41
@@ -294,12 +311,15 @@ Wire Wire Line
 	1150 3000 1150 3100
 Connection ~ 1800 3000
 Connection ~ 1150 3400
+
 Wire Wire Line
 	1150 3400 1150 3400
+
 Text GLabel 900 4400 0    50   Input ~ 0
 row3
 Wire Wire Line
 	900 4400 1150 4400
+
 $Comp
 L keyboard_parts:KEYSW K_SPACE5
 U 1 1 51
@@ -328,6 +348,7 @@ Wire Wire Line
 	1150 4000 1150 4100
 Connection ~ 1800 4000
 Connection ~ 1150 4400
+
 $Comp
 L keyboard_parts:KEYSW K_SPACE6
 U 1 1 61
@@ -356,6 +377,7 @@ Wire Wire Line
 	3150 4000 3150 4100
 Connection ~ 3800 4000
 Connection ~ 3150 4400
+
 $Comp
 L keyboard_parts:KEYSW K_SPACE7
 U 1 1 71
@@ -384,6 +406,7 @@ Wire Wire Line
 	4150 4000 4150 4100
 Connection ~ 4800 4000
 Connection ~ 4150 4400
+
 $Comp
 L keyboard_parts:KEYSW K_SPACE8
 U 1 1 81
@@ -412,6 +435,7 @@ Wire Wire Line
 	5150 4000 5150 4100
 Connection ~ 5800 4000
 Connection ~ 5150 4400
+
 $Comp
 L keyboard_parts:KEYSW K_SPACE9
 U 1 1 91
@@ -440,6 +464,7 @@ Wire Wire Line
 	6150 4000 6150 4100
 Connection ~ 6800 4000
 Connection ~ 6150 4400
+
 $Comp
 L keyboard_parts:KEYSW K_SPACE10
 U 1 1 a1
@@ -468,12 +493,15 @@ Wire Wire Line
 	7150 4000 7150 4100
 Connection ~ 7800 4000
 Connection ~ 7150 4400
+
 Wire Wire Line
 	1150 4400 7150 4400
+
 Text GLabel 900 5400 0    50   Input ~ 0
 row4
 Wire Wire Line
 	900 5400 1150 5400
+
 $Comp
 L keyboard_parts:KEYSW K_SPACE11
 U 1 1 b1
@@ -502,6 +530,7 @@ Wire Wire Line
 	1150 5000 1150 5100
 Connection ~ 1800 5000
 Connection ~ 1150 5400
+
 $Comp
 L keyboard_parts:KEYSW K_SPACE12
 U 1 1 c1
@@ -530,12 +559,15 @@ Wire Wire Line
 	5150 5000 5150 5100
 Connection ~ 5800 5000
 Connection ~ 5150 5400
+
 Wire Wire Line
 	1150 5400 5150 5400
+
 Text GLabel 900 6400 0    50   Input ~ 0
 row5
 Wire Wire Line
 	900 6400 1150 6400
+
 $Comp
 L keyboard_parts:KEYSW K_SPACE13
 U 1 1 d1
@@ -564,6 +596,7 @@ Wire Wire Line
 	2150 6000 2150 6100
 Connection ~ 2800 6000
 Connection ~ 2150 6400
+
 $Comp
 L keyboard_parts:KEYSW K_SPACE14
 U 1 1 e1
@@ -592,6 +625,7 @@ Wire Wire Line
 	3150 6000 3150 6100
 Connection ~ 3800 6000
 Connection ~ 3150 6400
+
 $Comp
 L keyboard_parts:KEYSW K_SPACE15
 U 1 1 f1
@@ -620,6 +654,7 @@ Wire Wire Line
 	4150 6000 4150 6100
 Connection ~ 4800 6000
 Connection ~ 4150 6400
+
 $Comp
 L keyboard_parts:KEYSW K_SPACE16
 U 1 1 101
@@ -648,12 +683,15 @@ Wire Wire Line
 	5150 6000 5150 6100
 Connection ~ 5800 6000
 Connection ~ 5150 6400
+
 Wire Wire Line
 	1150 6400 5150 6400
+
 Text GLabel 900 7400 0    50   Input ~ 0
 row6
 Wire Wire Line
 	900 7400 1150 7400
+
 $Comp
 L keyboard_parts:KEYSW K_SPACE17
 U 1 1 111
@@ -682,12 +720,15 @@ Wire Wire Line
 	5150 7000 5150 7100
 Connection ~ 5800 7000
 Connection ~ 5150 7400
+
 Wire Wire Line
 	1150 7400 5150 7400
+
 Text GLabel 900 8400 0    50   Input ~ 0
 row7
 Wire Wire Line
 	900 8400 1150 8400
+
 $Comp
 L keyboard_parts:KEYSW K_SPACE18
 U 1 1 121
@@ -716,20 +757,29 @@ Wire Wire Line
 	5150 8000 5150 8100
 Connection ~ 5800 8000
 Connection ~ 5150 8400
+
 Wire Wire Line
 	1150 8400 5150 8400
+
 Wire Wire Line
 	1800 5000 1800 1000
+
 Wire Wire Line
 	2800 6000 2800 1000
+
 Wire Wire Line
 	3800 6000 3800 1000
+
 Wire Wire Line
 	4800 6000 4800 1000
+
 Wire Wire Line
 	5800 8000 5800 1000
+
 Wire Wire Line
 	6800 4000 6800 1000
+
 Wire Wire Line
 	7800 4000 7800 1000
+
 $EndSCHEMATC
