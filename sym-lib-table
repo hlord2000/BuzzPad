@@ -1,4 +1,6 @@
 (sym_lib_table
   (lib (name "keyboard_parts")(type "Legacy")(uri "${KIPRJMOD}/kicad_lib_tmk/keyboard_parts.lib")(options "")(descr ""))
   (lib (name "promicro")(type "Legacy")(uri "${KIPRJMOD}/promicro.lib")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "Legacy")(uri "${KIPRJMOD}/lib/Symbol Library/MCU_RaspberryPi_and_Boards.lib")(options "")(descr ""))
+  (lib (name "USB4085-GF-A_REVA4")(type "Legacy")(uri "${KIPRJMOD}/lib/Symbol Library/USB4085-GF-A_REVA4.lib")(options "")(descr ""))
 )

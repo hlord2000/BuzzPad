@@ -1,6 +1,8 @@
 (fp_lib_table
   (lib (name "MX_ALPS_Hybrid")(type "KiCad")(uri "${KIPRJMOD}/MX_ALPS_Hybrid.pretty")(options "")(descr ""))
   (lib (name "keyboard_parts")(type "KiCad")(uri "${KIPRJMOD}/keyboard_parts.pretty")(options "")(descr ""))
-  (lib (name "Keebio-Parts")(type "KiCad")(uri "${KIPRJMOD}/Keebio-Parts.pretty")(options "")(descr ""))
   (lib (name "MX_Alps_Hybrid")(type "KiCad")(uri "${KIPRJMOD}/MX_Alps_Hybrid.pretty")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/lib/Parts Library/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
+  (lib (name "LordsBoard")(type "KiCad")(uri "${KIPRJMOD}/lib/Parts Library/LordsBoard.pretty")(options "")(descr ""))
+  (lib (name "Keebio-Parts")(type "KiCad")(uri "${KIPRJMOD}/lib/Parts Library/Keebio-Parts.pretty")(options "")(descr ""))
 )
